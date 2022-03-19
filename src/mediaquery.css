@@ -1,0 +1,186 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+} */
+
+
+/* LG Device :992px. */
+/* @media (min-width: 992px) and (max-width: 1200px) {
+} */
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.row.learn-row {
+  gap: 2em;
+  margin: 0;
+}
+p.learn-para {
+  padding: 0;
+}
+.row{
+  width: 100%;
+}
+.col-6{
+  width: 100%;
+}
+.col-6.info-learn {
+  text-align: center;
+}
+.col-6.img-online {
+  text-align: center;
+}
+p.para-wl {
+  padding: 0;
+}
+img.subtraction-1,img.subtraction-2 {
+  display: none;
+}
+p.info-jane {
+  padding: 10px 0;
+}
+p.news-para {
+  padding: 25px;
+}
+}
+
+
+/*Small Device :550px */
+@media (max-width: 767px){
+  .col-lg-6.info-learn {
+    text-align: center;
+}
+.row.learn-row {
+  gap: 2em;
+  margin: 0;
+}
+p.learn-para {
+  padding: 0;
+}
+.row{
+  width: 100%;
+  margin: 0;
+}
+.col-6{
+  width: 100%;
+}
+.col-6.info-learn {
+  text-align: center;
+}
+.col-6.img-online {
+  text-align: center;
+}
+p.para-wl {
+  padding: 0;
+}
+p.info-jane {
+  padding: 10px 0 0;
+}
+img.subtraction-1,img.subtraction-2 {
+  display: none;
+}
+p.news-para {
+  padding: 25px;
+}
+.footer-con {
+  gap: 2em;
+}
+}
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+/* Extra small Device. */
+@media (max-width: 575px) {
+  .logo-div {
+    padding: 5px;
+}
+img.online-img {
+  width: 100%;
+}
+button.btn.btn-secondary {
+  font-size: 12px;
+}
+.col-lg-6.img-online {
+  padding: 0;
+}
+.row{
+  width: 100%;
+  margin: 0;
+}
+.col-6{
+  width: 100%;
+  padding: 0;
+}
+.row.learn-row {
+  text-align: center;
+}
+img.logo {
+  width: 140px;
+}
+h2.learn-h {
+  font-size: 40px;
+}
+.card {
+  width: 100%;
+}
+p.para-wl {
+  font-size: 16px;
+  line-height: 24px;
+}
+h2.learn-head {
+  font-size: 28px;
+  line-height: 38px;
+}
+.row.row-card {
+  gap: 10px;
+}
+img.subtraction-1,img.subtraction-2 {
+  display: none;
+}
+p.info-jane {
+  padding: 0;
+}
+img.path {
+  width: 50px;
+}
+input.form-control.me-2 {
+  width: 100%;
+  height: 3em;
+  font-size: 15px;
+}
+form.d-flex {
+  flex-direction: column;
+  gap: 1em;
+}
+img.newsbook {
+  width: 100%;
+}
+button.btn.btn-outline-success {
+  padding: 15px 30px;
+}
+p.news-para {
+  padding: 25px 0;
+}
+img.newsbook {
+  width: initial;
+}
+img.newsbook-l {
+  width: 100%;
+}
+.col-lg-4.col-md-6.col-sm-6.col-12 {
+  padding: 0;
+}
+.blog-row.row {
+  display: flex;
+  gap: 2em;
+}
+.footer-con {
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+}
+} 

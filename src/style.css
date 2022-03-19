@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  color: #374B5C;
+  background: #FBFBFB;
+}
+
+/* logo */
+.logo-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+    align-items: center;
+}
+button.btn.btn-secondary {
+  background: #FF9100;
+  border: none;
+  padding: 12px 39px 12px 38px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  border-radius: 13px;
+  align-items: center;
+}
+/* /logo */
+
+/* learn */
+.container.learn-conta {
+  padding: 5em 0 0 0;
+}
+.row.learn-row {
+  color: #374B5C;
+  align-items: center;
+}
+.learn-head {
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 10px;
+}
+h2.learn-h {
+  font-size: 56px;
+  line-height: 67px;
+  padding-bottom: 10px;
+}
+p.learn-para {
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 7em 10px 0;
+}
+.col-6.img-online {
+  text-align: center;
+}
+/* learn */
+
+/* Welcome to On line learning  */
+.info-ln{
+  text-align: center;
+  color: #374B5C;
+  margin-bottom: 30px;
+}
+p.para-wl {
+  font-size: 21px;
+  line-height: 27px;
+  padding: 17px 11em;
+
+}
+.logo-learning {
+  padding-bottom: 17px;
+}
+img.card-img-top {
+  width: min-content;
+}
+element.style {
+  width: 18rem;
+}
+.imgwc {
+  text-align: center;
+}
+p.card-text {
+  text-align: center;
+  font-size: 15px;
+  line-height: 19px;
+  padding: 0 2em;
+}
+.card{
+  width: 16rem;
+}
+.card {
+  border: 2px dashed #374B5C;
+}
+.card.card-2 {
+  background: #FF9100;
+  color: #fff;
+  border:2px solid;
+}
+/* /Welcome to On line learning  */
+/* review  */
+.Jane {
+  text-align: center;
+  margin-top: 30px;
+  padding: 30px 0;
+  position: relative;
+}
+h4.name {
+  font-size: 26px;
+  line-height: 32px;
+  padding-top: 10px;
+}
+p.info-jane {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 20em;
+}
+img.subtraction-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+img.subtraction-2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+img.path {
+  padding-bottom: 15px;
+}
+.news-letter {
+  padding: 5em 0;
+  text-align: center;
+}
+input.form-control.me-2 {
+  border-radius: 30px;
+  height: 4em;
+  width: 25em;
+  font-size: 18px;
+  line-height: 22px;
+  color: #374B5C;
+}
+button.btn.btn-outline-success {
+  background: #FF9100;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0 30px;
+}
+form.d-flex {
+  justify-content: center;
+}
+.news-book {
+  padding-bottom: 25px;
+  font-size: 36px;
+  line-height: 45px;
+}
+p.news-para {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 25px 23em;
+}
+.news-book {
+  padding-top: 2em;
+  padding-bottom: 25px;
+}
+h4.news-head {
+  font-size: 36px;
+  line-height: 45px;
+}
+.news-letter {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.card.card-blog {
+  border: none;
+}
+img.card-img-top.blogimg {
+  width: 100%;
+}
+
+h5.card-title {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  color: #D67E09;
+}
+p.card-text.para-blog {
+  padding: 0;
+}
+a.btn.btn-primary {
+  background: none;
+  color: inherit;
+  border: none;
+  padding-left: 29%;
+  text-decoration: underline;
+}
+.card.card-blog {
+  filter: drop-shadow(0px 7px 10px rgba(0, 0, 0, 0.161));
+  border-radius: 20px;
+}
+.news-letter {
+  padding: 4em 0 0 0;
+  text-align: center;
+}
+footer {
+  background: #FF9100;
+}
+.footer-con {
+  display: flex;
+  padding: 7em 0;
+  justify-content: space-between;
+  align-items: baseline;
+  color: #fff;
+}
+.link-fa {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+a.link-a {
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  text-decoration: none;
+}
+.logo {
+  display: grid;
+  grid-gap: 1em;
+}
